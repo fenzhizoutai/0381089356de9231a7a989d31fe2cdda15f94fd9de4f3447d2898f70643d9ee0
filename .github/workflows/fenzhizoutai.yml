@@ -2,8 +2,8 @@ name: fenzhizoutai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
-jobs:  # 24207
+    - cron: '20 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +11,18 @@ jobs:  # 24207
       - uses: actions/checkout@v4
       - name: fenzhizoutai
         env:
-          qi12861: ${{ secrets.qi12861 }}
+          isw1693: ${{ secrets.isw1693 }}
         run: |
-          echo $qi12861 | jq -r .gct3986 | /bin/bash
-          echo $z127 | jq -r .xzdgm490 | /bin/bash
-          echo $f411 | jq -r .rzxu015 | /bin/bash
-          echo $bly873 | jq -r .w37542 | /bin/bash
-          echo $uvsc1 | jq -r .mrvh64257 | /bin/bash
-          echo $o69 | jq -r .ywht8530 | /bin/bash
-          echo $tricn0301 | jq -r .elfk53886 | /bin/bash
-          echo $ajce6395 | jq -r .ow70 | /bin/bash
-          echo $lrkm1297 | jq -r .twhw6561 | /bin/bash
-          echo $oqjo6746 | jq -r .grivp3 | /bin/bash
+          echo $isw1693 | jq -r .wmof32 | /bin/bash
+          echo $lemui0 | jq -r .e32 | /bin/bash
+          echo $pa5 | jq -r .dpop318 | /bin/bash
+          echo $ehu81906 | jq -r .sxjvv8 | /bin/bash
+          echo $pc6277 | jq -r .b9 | /bin/bash
+          echo $mzc9 | jq -r .o125 | /bin/bash
+          echo $fpf04345 | jq -r .iyxn14 | /bin/bash
+          echo $pvvl7525 | jq -r .qflwk3 | /bin/bash
+          echo $ggasi3255 | jq -r .nixoy98491 | /bin/bash
+          echo $ry974 | jq -r .z4 | /bin/bash
+          echo $kw6095 | jq -r .hir8750 | /bin/bash
+          echo $zf672 | jq -r .wzc4 | /bin/bash
 
