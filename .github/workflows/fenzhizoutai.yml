@@ -1,28 +1,25 @@
 name: fenzhizoutai
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '41 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fenzhizoutai
         env:
-          isw1693: ${{ secrets.isw1693 }}
+          piy47520: ${{ secrets.piy47520 }}
         run: |
-          echo $isw1693 | jq -r .wmof32 | /bin/bash
-          echo $lemui0 | jq -r .e32 | /bin/bash
-          echo $pa5 | jq -r .dpop318 | /bin/bash
-          echo $ehu81906 | jq -r .sxjvv8 | /bin/bash
-          echo $pc6277 | jq -r .b9 | /bin/bash
-          echo $mzc9 | jq -r .o125 | /bin/bash
-          echo $fpf04345 | jq -r .iyxn14 | /bin/bash
-          echo $pvvl7525 | jq -r .qflwk3 | /bin/bash
-          echo $ggasi3255 | jq -r .nixoy98491 | /bin/bash
-          echo $ry974 | jq -r .z4 | /bin/bash
-          echo $kw6095 | jq -r .hir8750 | /bin/bash
-          echo $zf672 | jq -r .wzc4 | /bin/bash
+          echo $piy47520 | jq -r .bsun2189 | /bin/bash
+          echo $bpnso995 | jq -r .e12444 | /bin/bash
+          echo $ujhqy9828 | jq -r .vrfdz22831 | /bin/bash
+          echo $eyup96 | jq -r .cqqs12 | /bin/bash
+          echo $vzmfk46188 | jq -r .uqk8 | /bin/bash
+          echo $a9 | jq -r .v5 | /bin/bash
+          echo $ercz099 | jq -r .vk8 | /bin/bash
+          echo $db46 | jq -r .pu49 | /bin/bash
+          echo $t8 | jq -r .fom4314 | /bin/bash
 
